@@ -1,0 +1,37 @@
+# Arquivos gerados pelo Node.js
+node_modules/
+
+# Arquivo de log do npm
+npm-debug.log*
+
+# Arquivos de log do yarn
+yarn-debug.log*
+yarn-error.log*
+
+# Dependências instaladas pelo npm
+package-lock.json
+
+# Dependências instaladas pelo yarn
+yarn.lock
+
+# Arquivos gerados durante o processo de build
+/build/
+
+# Arquivos de configuração de ambiente local
+.env
+
+# Arquivos de configuração IDE específicos
+.vscode/
+.idea/
+
+# Cache do Jest (caso você esteja usando Jest para testes)
+/jest-cache/
+
+# Arquivos de build do TypeScript
+*.tsbuildinfo
+
+# Arquivos de coverage (cobertura de testes)
+/coverage/
+
+# Logs de erro do Node.js
+error.log

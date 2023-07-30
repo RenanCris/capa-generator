@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  spring:
+    build:
+      context: ./capa        # Diretório onde se encontra o Dockerfile da aplicação Java Spring
+    ports:
+      - "8080:8080"                # Porta de mapeamento para a aplicação Spring
+    networks:
+      - backend-network         
+
+  node:
+    build:
+      context: ./jsonServer          # Diretório onde se encontra o Dockerfile da aplicação Node.js
+    ports:
+      - "3000:3000"   
+    networks:
+      - backend-network
+networks:
+  backend-network:                # Definição da rede backend-network
+    driver: bridge
