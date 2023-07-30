@@ -1,0 +1,5 @@
+com\renan\capa\RestTemplateClient.class
+com\renan\capa\CapaApplication.class
+com\renan\capa\services\CapaService.class
+com\renan\capa\controller\CapaGeneratorController.class
+com\renan\capa\entity\Capa.class

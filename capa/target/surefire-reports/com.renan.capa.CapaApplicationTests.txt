@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.renan.capa.CapaApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.689 s - in com.renan.capa.CapaApplicationTests
