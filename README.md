@@ -1,5 +1,5 @@
 
-## CapaGerator
+## CapaGenerator
 
 CapaGerator é um projeto que combina um aplicativo Java Spring Boot com uma aplicação Node.js que roda um servidor JSON. O objetivo do projeto é fornecer uma API simples que responde a três valores possíveis. Este repositório contém todo o código necessário para executar o aplicativo usando o Docker Compose.
 
@@ -7,7 +7,7 @@ CapaGerator é um projeto que combina um aplicativo Java Spring Boot com uma apl
 
 O projeto CapaGerator possui as seguintes funcionalidades:
 
-- API Java Spring Boot para gerar capas de livros.
+- API Java Spring Boot para gerar capas para um PDF.
 - Servidor JSON Node.js para fornecer os dados necessários para a geração das capas.
 - Respostas da API contendo três valores possíveis para cada capa gerada.
 
